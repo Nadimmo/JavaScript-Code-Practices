@@ -88,3 +88,4 @@ cart.addToCard("Pad", 5000 )
 cart.addToCard("iphone", 31000 )
 console.log("Total Price:", cart.getTotalPrice())
 console.log(cart)
+
