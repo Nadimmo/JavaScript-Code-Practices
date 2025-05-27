@@ -1,0 +1,2 @@
+// "use strict" is a directive introduced in ECMAScript 5 that enforces stricter parsing and error handling in JavaScript code. It helps in writing more secure, robust, and maintainable code by catching common programming mistakes and eliminating silent errors.
+// Enabling strict mode is done by adding "use strict"; at the beginning of a JavaScript file or within a function. When strict mode is enabled, several changes occur in the behavior of JavaScript
