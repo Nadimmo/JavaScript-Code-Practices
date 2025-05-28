@@ -5,6 +5,8 @@ let products = [
 
 let cart = [];
 let orders = [];
+
+// Task:1
 function addToCart(productId, quantity) {
     const product = products.find(p => p.id === productId);
     const ProductPrice = product.price;
@@ -30,12 +32,16 @@ addToCart(1, 2);
 addToCart(2, 3);
 addToCart(1, 3);
 
+
+// Task:2
 function viewCart(cartItem) {
     console.log("view all cart item", cartItem)
 }
 viewCart(cart)
 
 
+
+// Task:3
 function placeOrder(cartItem) {
 
     if (cartItem.length < 0) {
